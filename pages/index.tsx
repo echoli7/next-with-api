@@ -5,7 +5,7 @@ import Hero from '../components/hero'
 import HomeNav from '../components/homeNav'
 import FeatureSection from '../components/featureSection'
 import { home } from '../content'
-import Layout from '../components/layout'
+// import Layout from '../components/Layout'
 
 const Home: FC<{ content: { hero: any; features: any[] } }> = ({ content }) => {
   return <Fragment>
