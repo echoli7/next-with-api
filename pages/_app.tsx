@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import doNotUseLayout from '../utils/no_layout'
 import '../styles/globals.css'
 
+
 function MyApp({ Component, pageProps }) {
   let noLayout = Component[doNotUseLayout.param]
   

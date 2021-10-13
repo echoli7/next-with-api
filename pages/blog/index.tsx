@@ -34,7 +34,7 @@ const Blog = ({ posts }) => {
       {isBrowser && "browser"}
       {isMobile && "mobile"}
       <BrowserView>
-        <h1> This is rendered only in browser </h1>
+        <h1 style={{color: 'green'}}> This is rendered only in browser </h1>
       </BrowserView>
       <MobileView>
         <h1> This is rendered only on mobile </h1>
